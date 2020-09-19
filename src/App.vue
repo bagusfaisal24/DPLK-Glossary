@@ -1,6 +1,5 @@
 <template>
   <div>
-    <title> DPLK Glosarium</title>
     <Index/>
   </div>
 </template>
@@ -9,6 +8,7 @@
 import Index from './components/Index.vue'
 
 export default {
+  title: 'DPLK Glosarium',
   name: 'App',
   components: {
     Index
